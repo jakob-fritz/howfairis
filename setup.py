@@ -38,7 +38,8 @@ setup(
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
-        "Programming Language :: Python :: 3.10"
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
     ],
     test_suite="tests",
     install_requires=[
@@ -51,7 +52,7 @@ setup(
         "ratelimit == 2.*",
         "requests == 2.*",
         "ruamel.yaml == 0.16.*",
-        "voluptuous == 0.11.*"
+        "voluptuous == 0.14.*"
     ],
     setup_requires=[
     ],
